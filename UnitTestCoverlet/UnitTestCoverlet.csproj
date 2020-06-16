@@ -43,7 +43,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <VSTestTaskAssemblyFile>$(MSBuildThisFileDirectory)\..\packages\Microsoft.TestPlatform.Build.16.6.1\lib\netstandard2.0\Microsoft.TestPlatform.Build.dll</VSTestTaskAssemblyFile>
-    <VSTestConsolePath>C:\Program Files\dotnet\sdk\3.1.201\vstest.console.dll</VSTestConsolePath>
+    <VSTestConsolePath>$(MSBuildThisFileDirectory)..\packages\Microsoft.TestPlatform.Portable.16.6.1\tools\netcoreapp2.1\vstest.console.dll</VSTestConsolePath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.TestPlatform.Build, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
